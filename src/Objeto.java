@@ -1,4 +1,4 @@
-public class Objeto implements Comparable<Objeto> {
+public class Objeto {
 
     private String nome;
     private int peso;
@@ -22,16 +22,4 @@ public class Objeto implements Comparable<Objeto> {
         return preco;
     }
 
-    @Override
-    public int compareTo(Objeto o) {
-
-        if(this.preco > o.getPreco()){
-
-            return +1;
-        } else if (this.preco < o.getPreco()) {
-
-            return -1;
-        }
-        return 0;
-    }
 }

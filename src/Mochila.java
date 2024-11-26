@@ -11,7 +11,6 @@ public class Mochila {
         lista = new ArrayList<Objeto>();
     }
 
-
     public ArrayList<Objeto> getLista() {
         return lista;
     }

@@ -25,6 +25,7 @@ class Controlador {
             for(int w =0; w<=mochila.getCapacidade();w++)
             {
                 calculados[i][w] = calcular(i,w);
+                //System.out.println(calculados[i][w]);
             }
         }
         mochilaAdd();
